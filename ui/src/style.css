@@ -1,0 +1,122 @@
+@layer theme, base, app-layout, components, utilities;
+@import "../style.css" layer(app-layout);
+@import "@ghostline/ui-core/styles.css";
+@import "@ghostline/ui-core/controller.css";
+.gl-root {
+  min-height: 100dvh;
+}
+.gl-root > main {
+  flex: 1;
+  min-height: 0;
+}
+label .gl-input[type="checkbox"] {
+  width: auto;
+  padding: 0;
+}
+.gl-app-shell > main {
+  grid-template-columns: 280px minmax(0, 1fr) 270px;
+}
+.gl-app-shell .workspace {
+  min-width: 0;
+}
+.gl-app-shell > footer {
+  height:auto; min-height:37px; flex-wrap:wrap; gap:8px;
+  background:var(--color-panel); color:var(--color-muted);
+}
+.gl-app-shell nav[aria-label="Editor panels"] {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.gl-app-shell :where(.plan-tools, .preview-navigation, .placement-banner) {
+  background: var(--color-panel);
+  border-color: var(--color-line);
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.gl-app-shell
+  :where(
+    .workspace-toolbar,
+    .preview-toolbar,
+    .edit-toolbar,
+    .studio-tools,
+    nav[aria-label="Editor panels"]
+  ) {
+  height: auto;
+  min-height: 48px;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: var(--color-panel);
+  padding: 12px;
+}
+.gl-app-shell :where(.plan-wrap, .shell-map) {
+  background: var(--color-background);
+}
+.gl-app-shell .preview-wrap {
+  background: radial-gradient(ellipse, #30382e, var(--color-background));
+}
+.gl-app-shell :where(.row, .grid-fields, .retrofit-actions) {
+  gap: 8px;
+}
+.gl-app-shell .workspace-toolbar label,
+.gl-app-shell .preview-toolbar label {
+  margin: 0;
+}
+.gl-app-shell :where(.retrofit-dialog, .retrofit-dialog details > summary) {
+  background: var(--color-panel);
+}
+@media (max-width: 1100px) {
+  .gl-app-shell > main,
+  .catalogue-mode .gl-app-shell > main {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    height: auto;
+  }
+  .gl-app-shell .inspector {
+    display: block;
+    grid-column: 1/-1;
+    max-height: none;
+    border-top: 1px solid var(--color-line);
+  }
+  .gl-app-shell .workspace {
+    min-height: 760px;
+    order: 0;
+  }
+}
+@media (max-width: 700px) {
+  .gl-app-shell > main,
+  .catalogue-mode .gl-app-shell > main {
+    display: flex;
+    flex-direction: column;
+  }
+  .gl-app-shell > main > aside {
+    display: block;
+    max-height: none;
+    overflow: visible;
+    padding: 16px;
+  }
+  .gl-app-shell .workspace {
+    order: -1;
+    min-height: 760px;
+  }
+  .gl-app-shell .plan-wrap {
+    min-height: 340px;
+  }
+  .gl-app-shell .preview-wrap {
+    min-height: 280px;
+    height: 280px;
+  }
+  .gl-app-shell .workspace-toolbar,
+  .gl-app-shell .preview-toolbar {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .gl-app-shell .workspace-toolbar #stats {
+    flex-basis: 100%;
+  }
+  .gl-app-shell .shell-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .gl-app-shell .family-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

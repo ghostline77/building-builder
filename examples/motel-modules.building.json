@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "motel-modules",
+  "name": "Motel module lab",
+  "revision": 0,
+  "kit": "kit-88b76e34a5f5",
+  "origin": [100, 100, 700],
+  "yaw": 0,
+  "wall_appearance": "default",
+  "floor_appearance": "tiles_grey",
+  "rooms": [
+    {"id": "ground", "x": 0, "y": 0, "width": 3, "depth": 5, "level": 0},
+    {"id": "upper", "x": 0, "y": 0, "width": 3, "depth": 5, "level": 1},
+    {"id": "service", "x": 3, "y": 0, "width": 2, "depth": 2, "level": 0}
+  ],
+  "openings": {"0:y:3:1": "door_auto", "0:x:1:0": "door_manual"},
+  "objects": [{"id": "sample_handrail", "asset": "a1cfe2cdd37d30bd00ec", "appearance": "default", "position": [13.5, 1.5, 0], "yaw": 0, "anchor": "base_center"}],
+  "stairs": [{"id": "main", "x": 3, "y": 3, "width": 3, "run": 9, "level": 0}],
+  "interior": true,
+  "navigation": {"export": true, "radius": 0.3, "height": 1.8, "climb": 0.6, "layer": 200, "connections": []}
+}

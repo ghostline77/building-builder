@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "workshop",
+  "name": "Workshop",
+  "revision": 0,
+  "kit": "common-3m",
+  "origin": [100, 100, 700],
+  "yaw": 0,
+  "wall_appearance": "concrete_bare",
+  "floor_appearance": "tiles_grey",
+  "rooms": [{"id": "main", "x": 0, "y": 0, "width": 2, "depth": 2, "level": 0}],
+  "openings": {"0:x:0:0": "doorway"},
+  "objects": []
+}

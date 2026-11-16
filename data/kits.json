@@ -1,0 +1,790 @@
+[
+  {
+    "id": "common-3m",
+    "name": "Common concrete",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.23,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "concrete_bare",
+      "paint_black",
+      "tiles",
+      "bricks",
+      "paint_grey",
+      "paper_old"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_wall_h400_l300_a.mesh",
+        "preview_appearance": "concrete_bare"
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_wall_door_single_h400_l300_a.mesh",
+        "preview_appearance": "concrete_bare"
+      }
+    },
+    "wall_facing_depth": 0.2
+  },
+  {
+    "id": "industrial-3m",
+    "name": "Industrial workshop",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.26,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "green",
+      "Ripperdoc",
+      "RipperdocTiles",
+      "red",
+      "black",
+      "brick_white",
+      "brick_white_all",
+      "grey_dark",
+      "default_no_metalness",
+      "Ripperdoc_no_metalness",
+      "RipperdocTiles_no_metalness",
+      "black_no_metalness",
+      "brick_white_no_metalness",
+      "green_no_metalness",
+      "grey_dark_no_metalness",
+      "red_no_metalness"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_ent_industrial_a\\int_ent_industrial_a_wall_gf_h400_l300_a.mesh",
+        "preview_appearance": "default"
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_ent_industrial_a\\int_ent_industrial_a_wall_gf_door_single_h400_l300_a.mesh",
+        "preview_appearance": "default"
+      }
+    }
+  },
+  {
+    "id": "kit-12e0a15a079a",
+    "name": "Int Nkt Apartment A",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "marble",
+      "white_marble"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_nkt_apartment_a\\int_nkt_apartment_a_wall_l300_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          7.152557373046875E-07
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_nkt_apartment_a\\int_nkt_apartment_a_wall_door_single_l300_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          -2.300739288330078E-05,
+          -0.0,
+          1.1920928955078125E-07
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-1d9b7cfe7981",
+    "name": "Int Kts Corridor A",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.2011,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "graphite",
+      "tan"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_kts_corridor_a\\int_kts_corridor_wall_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          -4.76837158203125E-07,
+          6.92903995513916E-07,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_kts_corridor_a\\int_kts_corridor_wall_door_single_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          -2.193450927734375E-05,
+          4.842877388000488E-07,
+          -0.0
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-30345d78886c",
+    "name": "Int Ent Apartment A",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.25,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "construction",
+      "Boss_room",
+      "Kitchen",
+      "placide",
+      "oldboy",
+      "poor_a",
+      "poor_b",
+      "beige",
+      "red",
+      "boss_room"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_ent_apartment_a\\int_ent_apartment_a_wall_w300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_ent_apartment_a\\int_ent_apartment_a_wall_door_w300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          1.1920928955078125E-06
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-7e998ed5a9a4",
+    "name": "Int Mlt Office A",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.26,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_office_a\\int_mlt_office_wall_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_office_a\\int_mlt_office_wall_door_single_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-88b76e34a5f5",
+    "name": "Int Kts Corridor B Motel",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2351,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_kts_corridor_b_motel\\int_kts_corridor_b_motel_wall_h400_l300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          1.1444091796875E-05,
+          1.1920928955078125E-07
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_kts_corridor_b_motel\\int_kts_corridor_b_motel_wall_door_h400_l300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          2.2217631340026855E-05,
+          -2.682209014892578E-05
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-8cb723457a8a",
+    "name": "Common / Station Metro",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.2,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\station_metro\\station_metro_a_wall_l300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          1.5497207641601562E-06,
+          6.48200511932373E-07,
+          2.384185791015625E-07
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\station_metro\\station_metro_a_wall_door_single_l300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          1.0654330253601074E-06,
+          1.1920928955078125E-06
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-9911d6b6de81",
+    "name": "Watson / Kabuki",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2378,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "ap1",
+      "ap2",
+      "red"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\watson\\kabuki\\wat_kab_building_a_wall_w300_h400_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          7.309019565582275E-06,
+          -9.5367431640625E-07
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\watson\\kabuki\\wat_kab_building_a_wall_door_w300_h400_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          8.143484592437744E-06,
+          7.152557373046875E-06
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-9d910d4c76a1",
+    "name": "Int Mlt Jp Arasaka A",
+    "grid": 3,
+    "wall_height": 4.002,
+    "storey_height": 4.402,
+    "wall_thickness": 0.201,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_jp_arasaka_a\\int_mlt_jp_arasaka_a_wall_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0002620220184326172,
+          -0.0,
+          0.0020263195037841797
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_jp_arasaka_a\\int_mlt_jp_arasaka_a_wall_a_l300_door.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          9.119510650634766E-05,
+          -0.0,
+          -0.0
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-a392710f89f3",
+    "name": "Int Mlt Staircase A",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2169,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_staircase_a\\int_mlt_staircase_wall_stairs_a_l300_h400.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_staircase_a\\int_mlt_staircase_wall_stairs_door_single_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-a96bb1e0260f",
+    "name": "City Center / Arasaka Tower",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2003,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "dark_c",
+      "marble_a"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\city_center\\arasaka_tower\\interior\\lobby\\int_arasaka_tower_lobby_a_wall_a_l300.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\city_center\\arasaka_tower\\interior\\lobby\\int_arasaka_tower_lobby_a_wall_a_l300_door.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          -1.1920928955078125E-07,
+          -0.0,
+          0.0001480579376220703
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-a9822d8d5437",
+    "name": "Int Mlt Jp Apartment A",
+    "grid": 3,
+    "wall_height": 3.8,
+    "storey_height": 4.2,
+    "wall_thickness": 0.22,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_jp_apartment_a\\int_mlt_jp_apartment_a_wall_l300_a.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_mlt_jp_apartment_a\\int_mlt_jp_apartment_a_wall_door_l300_b.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          0.0,
+          3.725290298461914E-08,
+          -0.0
+        ]
+      }
+    }
+  },
+  {
+    "id": "kit-dd540ac1f3d9",
+    "name": "Int Nkt Corridor A",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.2001,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "black_marble",
+      "bright_wood"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_nkt_corridor_a\\int_nkt_corridor_a_wall_l300_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          1.9550323486328125E-05,
+          -0.0,
+          -0.0
+        ]
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_nkt_corridor_a\\int_nkt_corridor_a_wall_door_single_l300_aa.mesh",
+        "preview_appearance": "default",
+        "offset": [
+          3.337860107421875E-06,
+          -0.0,
+          -7.152557373046875E-07
+        ]
+      }
+    }
+  },
+  {
+    "id": "rancho-3m",
+    "name": "Rancho house",
+    "grid": 3,
+    "wall_height": 4.0,
+    "storey_height": 4.4,
+    "wall_thickness": 0.175,
+    "door_clearance": [
+      1.5,
+      2.4
+    ],
+    "wall_appearances": [
+      "default",
+      "Brick_a",
+      "cinderblock_raw",
+      "cinderblock_green",
+      "plaster_purple",
+      "plaster_blue",
+      "concrete_a",
+      "siding_a",
+      "siding_blue",
+      "siding_beige",
+      "siding_red"
+    ],
+    "floor_appearances": [
+      "tiles_grey",
+      "carpet",
+      "tiles_terracotta",
+      "tiles_black_large",
+      "linoleum",
+      "Wood"
+    ],
+    "pieces": {
+      "floor": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_floor_l300_a.mesh",
+        "preview_appearance": "tiles_grey"
+      },
+      "ceiling": {
+        "mesh": "base\\environment\\architecture\\common\\int\\int_common_a\\int_common_a_ceiling_l300_a.mesh",
+        "preview_appearance": "concrete"
+      },
+      "wall": {
+        "mesh": "base\\environment\\architecture\\santo_domingo\\rancho_coronado\\std_rcr_house_a_wall_a_gf_l300_a.mesh",
+        "preview_appearance": "default"
+      },
+      "doorway": {
+        "mesh": "base\\environment\\architecture\\santo_domingo\\rancho_coronado\\std_rcr_house_a_wall_a_gf_door_single_l300_b.mesh",
+        "preview_appearance": "default"
+      }
+    }
+  }
+]

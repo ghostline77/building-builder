@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "stairs_devices",
+  "name": "Two-storey stair and device lab",
+  "revision": 0,
+  "kit": "common-3m",
+  "origin": [100, 100, 700],
+  "yaw": 30,
+  "wall_appearance": "paint_grey",
+  "floor_appearance": "tiles_grey",
+  "rooms": [
+    {"id": "ground", "x": 0, "y": 0, "width": 3, "depth": 5, "level": 0},
+    {"id": "upper", "x": 0, "y": 0, "width": 3, "depth": 5, "level": 1}
+  ],
+  "openings": {"0:x:1:0": "door_manual"},
+  "door_states": {"0:x:1:0": "LOCKED"},
+  "objects": [],
+  "stairs": [{"id": "main_stair", "x": 3, "y": 3, "width": 3, "run": 9, "level": 0, "landing": 3, "reverse": false, "railings": true, "axis": "y", "type": "straight", "flight_width": 1.2}],
+  "lights": [{"id": "warm_light", "position": [4.5, 2, 3.4], "color": [255, 224, 190], "radius": 5, "intensity": 45}],
+  "audio_areas": [{"id": "roomtone", "position": [4.5, 7.5, 0], "size": [9, 15, 3.8], "preset": "residential-ground"}],
+  "interior": true,
+  "navigation": {"export": true, "radius": 0.3, "height": 1.8, "climb": 0.6, "layer": 200, "connections": []}
+}

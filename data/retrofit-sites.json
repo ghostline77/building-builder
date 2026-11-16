@@ -1,0 +1,20 @@
+[
+  {
+    "name": "AKPP Logistics · Kabuki",
+    "position": [-1112.021, 1374.0105, 5.859008],
+    "yaw": 1.330587,
+    "radius": 12,
+    "sectors": ["base\\worlds\\03_night_city\\_compiled\\default\\exterior_-18_21_0_0.streamingsector", "base\\worlds\\03_night_city\\_compiled\\default\\exterior_-9_10_0_1.streamingsector"],
+    "selection": [{"index":4362},{"index":5858,"instance":0},{"index":5858,"instance":1},{"index":5860,"instance":0},{"index":5860,"instance":1},{"index":5860,"instance":2},{"index":4596},{"index":4597},{"index":4598},{"index":4599},{"index":5859,"instance":0},{"index":5859,"instance":1}],
+    "floors": [{"name":"Ground","level":0,"position":[0,0,0],"size":[6,6,3.5],"yaw":0},{"name":"Upper","level":1,"position":[0,0,3.72],"size":[6,6,3.6],"yaw":0}],
+    "note":"Measured shell fixture. Keep the western Ru Lai boundary. Review the current native pieces before importing."
+  },
+  {
+    "name":"Rancho · shared collision wall",
+    "position":[-692.728,-1415.521,7.553],"yaw":0,"radius":10,
+    "sectors":["base\\worlds\\03_night_city\\_compiled\\default\\exterior_-11_-23_0_0.streamingsector","base\\worlds\\03_night_city\\_compiled\\default\\exterior_-2_-3_0_3.streamingsector"],
+    "selection":[{"index":530,"instance":0},{"index":850,"actor":119,"shape":0}],
+    "floors":[{"name":"Ground","level":0,"position":[-3,-3,0],"size":[6,6,4.2],"yaw":0}],
+    "note":"A wall instance and one shape in a shared collision node. Neighbouring instances and actors must remain."
+  }
+]
