@@ -34,9 +34,11 @@ full shadowing, reflections, indirect lighting, or post-processing.
 The API and renderer share one archive source through `Arc`; compilation, surveys
 and export do not take the GPU session lock. Preview requests run separately from
 the editor transaction queue and coalesce updates while a frame is being prepared.
-`ui/forms.js` owns transactional settings forms and draft recovery;
-`ui/studio.js` owns camera, plan manipulation and catalogue presentation.
-Developer servers can set `GHOSTLINE_BUILDING_UI` to this package's `ui` directory
+`ui/src/forms.tsx` owns React draft forms and Apply/Discard controls.
+`ui/src/store.ts` serializes validated edits and manages history, save and preview
+state. `ui/src/plan.tsx`, `library.tsx` and `retrofit.tsx` render plan tools,
+catalogue placement and source-pinned shell workflows. Tailwind compiles the styles.
+Developer servers can set `GHOSTLINE_BUILDING_UI` to this package's `ui/dist` directory
 to serve edits directly; release binaries otherwise use their bundled interface.
 
 | Source | Responsibility |

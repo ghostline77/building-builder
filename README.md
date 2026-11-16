@@ -3,17 +3,14 @@
 Create Cyberpunk 2077 buildings, place catalogue furniture, edit vanilla shells,
 and export native mod archives from a local browser editor.
 
-Use Rust and Node with the sibling repositories declared in
-[Cargo.toml](Cargo.toml). Install the parent JavaScript workspace with `npm ci`
-before building a fresh checkout. Run from this repository:
+Install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository.
 
 ```powershell
 cargo build --release --locked
 ./target/release/ghostline-building-builder.exe serve --game 'path/to/Cyberpunk 2077' --port 8793
 ```
 
-Open <http://127.0.0.1:8793/>. Requires the sibling `ghostline-red`, `renderer`,
-and published `items/dist/catalogue` package. The game installation is read-only.
+Open <http://127.0.0.1:8793/>. Supply the Items package directory using `--catalogue PATH`. The game installation is read-only.
 
 An existing Items catalogue can be reused after a game update. Its game-content
 fingerprint records provenance, rather than requiring an identical installation.

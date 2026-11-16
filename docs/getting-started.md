@@ -1,7 +1,6 @@
 # Start the building builder
 
-Run these commands from the building-builder repository after installing the
-parent workspace's JavaScript dependencies:
+Run these commands from the building-builder repository with Rust and Node.js installed:
 
 ```powershell
 cargo build --release --locked
@@ -11,7 +10,7 @@ cargo build --release --locked
 Open <http://127.0.0.1:8793/> in a browser. The editor runs locally;
 it reads the game but does not install anything into it.
 
-The sibling `items/dist/catalogue` package supplies the object library and
+The Items catalogue package supplies the object library and
 previews. Use `--catalogue PATH`, or set `GHOSTLINE_ITEMS_CATALOGUE`, to choose
 another published package. Keep its `data` and `media` directories together.
 The catalogue records its source version. Selected resources are resolved against

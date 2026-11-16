@@ -11,8 +11,8 @@ axum = "0.8"
 base64 = "0.22"
 clap = { version = "4", features = ["derive"] }
 crc32fast = "1"
-ghostline-red = { path = "../ghostline-red" }
-ghostline-renderer = { path = "../renderer" }
+ghostline-red = { git = "https://github.com/ghostline77/ghostline-red" }
+ghostline-renderer = { git = "https://github.com/ghostline77/renderer" }
 glam = "0.30"
 geo = { version = "0.33", default-features = false, features = ["earcut"] }
 image = { version = "0.25", default-features = false, features = ["png"] }

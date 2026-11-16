@@ -40,7 +40,7 @@ uninstall the building package.
 ## Command line
 
 Run from the builder directory. Native compilation requires `--game` (reflection is automatic; `--schema` is an optional override);
-the catalogue comes from the sibling package unless `--catalogue PATH` is supplied.
+the catalogue comes from the configured Items package unless `--catalogue PATH` is supplied.
 
 ```powershell
 ./target/release/ghostline-building-builder.exe new --out work/my-building.json

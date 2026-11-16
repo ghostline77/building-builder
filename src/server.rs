@@ -178,24 +178,6 @@ pub async fn serve(
                 )
             }),
         )
-        .route(
-            "/forms.js",
-            get(|| async {
-                (
-                    [(header::CONTENT_TYPE, "text/javascript")],
-                    ui_asset("forms.js", include_str!("../ui/forms.js")),
-                )
-            }),
-        )
-        .route(
-            "/studio.js",
-            get(|| async {
-                (
-                    [(header::CONTENT_TYPE, "text/javascript")],
-                    ui_asset("studio.js", include_str!("../ui/studio.js")),
-                )
-            }),
-        )
         .route("/api/bootstrap", get(bootstrap))
         .route("/api/library", get(library))
         .route("/api/survey", post(survey))
@@ -215,15 +197,6 @@ pub async fn serve(
         .route("/api/shell/import", post(shell_import))
         .route("/api/shell/operation", post(shell_operation))
         .route("/api/shell/preview", post(shell_preview))
-        .route(
-            "/retrofit.js",
-            get(|| async {
-                (
-                    [(header::CONTENT_TYPE, "text/javascript")],
-                    ui_asset("retrofit.js", include_str!("../ui/retrofit.js")),
-                )
-            }),
-        )
         .route("/api/catalogue-media", get(catalogue_media))
         .route("/api/compile", post(compile))
         .route("/api/route", post(route))

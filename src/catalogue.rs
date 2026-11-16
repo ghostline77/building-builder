@@ -94,7 +94,7 @@ fn relative(root: &Path, name: &str) -> Result<PathBuf> {
 impl Catalogue {
     pub fn default_root() -> PathBuf {
         std::env::var_os("GHOSTLINE_ITEMS_CATALOGUE")
-            .map_or_else(|| PathBuf::from("../items/dist/catalogue"), PathBuf::from)
+            .map_or_else(|| PathBuf::from("catalogue"), PathBuf::from)
     }
 
     pub fn open(root: &Path) -> Result<Option<Self>> {
