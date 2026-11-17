@@ -3,7 +3,9 @@
 Create Cyberpunk 2077 buildings, place catalogue furniture, edit vanilla shells,
 and export native mod archives from a local browser editor.
 
-Install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository.
+With the Windows distribution, use the executable in `windows-x64` and the separate `items-catalogue` folder. Pass the folder containing `manifest.json` to `--catalogue`, or set `GHOSTLINE_ITEMS_CATALOGUE` to its full path. Keep its data and media directories together.
+
+To build from source, install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository.
 
 ```powershell
 cargo build --release --locked
